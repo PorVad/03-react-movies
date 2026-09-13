@@ -1,7 +1,7 @@
 import './App.css'
-import SearchBar from './SearchBar/SearchBar'
-import fetchMovies from '../services/movieService';
-import{ type Movie } from '../types/movie';
+import SearchBar from '../SearchBar/SearchBar'
+import fetchMovies from '../../services/movieService';
+import{ type Movie } from '../../types/movie';
 import { useState } from 'react';
 
 function App() {
